@@ -7,7 +7,7 @@ module.exports = defineConfig([
     minify: false,
     dts: true,
     clean: true,
-    sourcemap: true,
+    sourcemap: false,
     outExtension: () => ({ js: '.js' }),
   },
   {
@@ -16,7 +16,7 @@ module.exports = defineConfig([
     minify: true,
     dts: true,
     clean: true,
-    sourcemap: true,
+    sourcemap: false,
     outExtension: () => ({ js: '.mini.js' }),
   },
 ]);
